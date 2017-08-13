@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/3H2rDxM.png" width="100">
+<img src="http://i.imgur.com/8ot24fB.png" width="150">
 
 Yeti is a project management and collaboration tool inspired by Jira and built with Ruby on Rails and React/Redux.
 
@@ -16,12 +16,12 @@ Yeti is a project management and collaboration tool inspired by Jira and built w
 * [DB schema][schema]
 * [Sample State][sample-state]
 
-[wireframes]: docs/wireframes
-[views]: docs/views
-[components]: docs/components
-[api-endpoints]: docs/api-endpoints
-[schema]: docs/schema
-[sample-state]: docs/sample-state
+[wireframes]: docs/wireframes.md
+[views]: docs/views.md
+[components]: docs/components.md
+[api-endpoints]: docs/api-endpoints.md
+[schema]: docs/schema.md
+[sample-state]: docs/sample-state.md
 
 
 ## Implementation Timeline
