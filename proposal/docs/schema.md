@@ -38,3 +38,12 @@ title         | string    | not null
 description  | string    |
 status         | string    | not null
 priority      | integer     | (Scale 1 - 5)(Default to 3)
+
+## project_sprint
+column name     | data type | details
+----------------|-----------|-----------------------
+id              | integer   | not null, primary key
+title         | string    | not null
+description  | string    |
+status         | string    | not null
+priority      | integer     | (Scale 1 - 5)(Default to 3)
