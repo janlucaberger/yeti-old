@@ -4,6 +4,10 @@
 ## Index Dashboard
 
 
+## Project
+- IE a dashboard for what issues 
+
+
 ## Issues Listing
 - All issues table showing : key, description, owner, priority, status, created at
 - Sorting
