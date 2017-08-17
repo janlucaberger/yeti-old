@@ -19,9 +19,13 @@
         "issue_type_id": 1,
         "status_type_id": 2,
         "priority": 4,
+        "vote_count": 12,
+        "watch_count": 3,
         "resolution": "Unresolved",
         "summary": "Create a sample state",
         "description": "<p><strong class='ql-size-large'>Things to do</strong></p><p><br></p><ul><li>Develop an initial idea of what the state will be like in the app.</li></ul><p><br></p>",
+        "created_at": "2017-08-23T18:25:43.511Z",
+        "updated_at": "2017-08-23T18:25:43.511Z",
         "attachments": {
           "1": {
             "id": 1,
@@ -34,6 +38,15 @@
             "issue_id": 1,
             "attachment_url": "https://s3.amazonaws.com/yeti/11231234/chart.pdf",
             "active": true
+          }
+        },
+        "comments": {
+          "1": {
+            "id": 1,
+            "issue_id": 1,
+            "user_id": 12,
+            "created_at": "2017-08-21T16:25:43.541Z",
+            "body": "<p>Testing testing</p>"
           }
         },
         "issue_history": {
@@ -63,9 +76,13 @@
         "issue_type_id": 2,
         "status_type_id": 3,
         "priority": 2,
+        "vote_count": 0,
+        "watch_count": 3,
         "resolution": "Unresolved",
         "summary": "Develop feature list",
         "description": "<p><strong class='ql-size-large'>Things to do</strong></p><p><br></p><ul><li>Develop an initial idea of what the state will be like in the app.</li></ul><p><br></p>",
+        "created_at": "2017-08-25T18:25:43.511Z",
+        "updated_at": "2017-08-25T18:25:43.511Z",
         "issue_history": {
           "3": {
             "id": 3,

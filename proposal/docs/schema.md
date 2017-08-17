@@ -127,7 +127,6 @@ issue_id        | integer   | not null, foreign_key (issues)
 attachment_url  | string    | not null (Link to S3Bucket)
 active          | boolean   | not null, (Default to true)
 
-?? Create a bucket per team during sign up
 
 ## issues_users (JOIN TABLES)
 column name     | data type | details
@@ -137,11 +136,26 @@ issue_id        | integer   | not null, foreign_key
 user_id         | string    | not null, foreign_key
 owner           | boolean   | not null
 
-
-<!-- ## sprint_issues (JOIN TABLE)
+## comments
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
-project_id      | integer   | not null, foreign_key (projects)
-sprint_id       | integer   | not null, foreign_key (sprints)
-issue_id        | integer   | not null, foreign_key (issues) -->
+issue_id        | integer   | not null, foreign_key (issues)
+user_id         | string    | not null, foreign_key (users)
+body            | string   | not null
+
+## votes
+column name     | data type | details
+----------------|-----------|-----------------------
+id              | integer   | not null, primary key
+issue_id        | integer   | not null, foreign_key (issues)
+user_id         | string    | not null, foreign_key (users)
+total_count     | integer   | not null
+
+## watchers
+column name     | data type | details
+----------------|-----------|-----------------------
+id              | integer   | not null, primary key
+issue_id        | integer   | not null, foreign_key (issues)
+user_id         | string    | not null, foreign_key (users)
+total_count     | integer   | not null
