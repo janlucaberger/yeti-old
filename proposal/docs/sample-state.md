@@ -21,7 +21,7 @@
         "priority": 4,
         "resolution": "Unresolved",
         "summary": "Create a sample state",
-        "description": "Develop and initial idea of what the state of the app is going to be.",
+        "description": "<p><strong class='ql-size-large'>Things to do</strong></p><p><br></p><ul><li>Develop an initial idea of what the state will be like in the app.</li></ul><p><br></p>",
         "attachments": {
           "1": {
             "id": 1,
@@ -36,14 +36,65 @@
             "active": true
           }
         },
-        "history": {
-          "1": {
-            "id": 1,
+        "issue_history": {
+          "4": {
+            "id": 4,
             "issue_id": 1,
-            "user_id": 12
+            "user_id": 12,
+            "updated_at": "2017-08-23T18:25:43.511Z",
+            "changes": {
+              "summary": "Create a sample state",
+              "priority": 1
+            }
           }
         },
-        "user_ids": {
+        "collaborators": {
+          "12": {
+            "id": 1,
+            "user_id": 12,
+            "issue_id": 1,
+            "owner": true
+          }
+        }
+      },
+      "2": {
+        "id": 2,
+        "project_id": 1,
+        "issue_type_id": 2,
+        "status_type_id": 3,
+        "priority": 2,
+        "resolution": "Unresolved",
+        "summary": "Develop feature list",
+        "description": "<p><strong class='ql-size-large'>Things to do</strong></p><p><br></p><ul><li>Develop an initial idea of what the state will be like in the app.</li></ul><p><br></p>",
+        "issue_history": {
+          "3": {
+            "id": 3,
+            "initial": false,
+            "issue_id": 2,
+            "user_id": 8,
+            "updated_at": "2017-08-22T18:25:43.511Z",
+            "changes": {
+              "issue_type_id": "2",
+              "priority": 1
+            }
+          },
+          "2": {
+            "id": 2,
+            "initial": true,
+            "issue_id": 2,
+            "user_id": 3,
+            "updated_at": "2017-08-20T18:25:43.511Z",
+            "changes": {
+              "issue_type_id": 1,
+              "status_type_id": 3,
+              "priority": 2,
+              "resolution": "Unresolved",
+              "summary": "Develop feature list",
+              "description": null,
+            }
+          }
+        },
+        "collaborators": {
           "12": {
             "id": 1,
             "user_id": 12,
@@ -121,4 +172,5 @@
 
   }
 }
+
 ```

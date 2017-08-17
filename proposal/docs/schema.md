@@ -107,6 +107,7 @@ column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
 issue_id        | integer   | not null, foreign_key (issues)
+initial        | boolean    | not null
 summary         | string    |
 description     | string    |
 issue_type_id   | integer   | foreign_key (issue_types)
