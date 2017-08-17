@@ -26,31 +26,31 @@
         "description": "<p><strong class='ql-size-large'>Things to do</strong></p><p><br></p><ul><li>Develop an initial idea of what the state will be like in the app.</li></ul><p><br></p>",
         "created_at": "2017-08-23T18:25:43.511Z",
         "updated_at": "2017-08-23T18:25:43.511Z",
-        "attachments": {
-          "1": {
+        "attachments": [
+          {
             "id": 1,
             "issue_id": 1,
             "attachment_url": "https://s3.amazonaws.com/yeti/11231234/image.pdf",
             "active": true
           },
-          "2": {
+          {
             "id": 2,
             "issue_id": 1,
             "attachment_url": "https://s3.amazonaws.com/yeti/11231234/chart.pdf",
             "active": true
           }
-        },
-        "comments": {
-          "1": {
+        ],
+        "comments": [
+          {
             "id": 1,
             "issue_id": 1,
             "user_id": 12,
             "created_at": "2017-08-21T16:25:43.541Z",
             "body": "<p>Testing testing</p>"
           }
-        },
-        "issue_history": {
-          "4": {
+        ],
+        "issue_history": [
+          {
             "id": 4,
             "issue_id": 1,
             "user_id": 12,
@@ -59,16 +59,15 @@
               "summary": "Create a sample state",
               "priority": 1
             }
-          }
-        },
-        "collaborators": {
-          "12": {
+        }],
+        "collaborators": [
+          {
             "id": 1,
             "user_id": 12,
             "issue_id": 1,
             "owner": true
           }
-        }
+        ]
       },
       "2": {
         "id": 2,
