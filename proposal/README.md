@@ -10,7 +10,7 @@ Yeti is a project management and collaboration tool inspired by Jira and built w
 
 ## Design Docs
 * [View Wireframes][wireframes]
-* [Views](views)
+* [Views][views]
 * [React Components][components]
 * [API endpoints][api-endpoints]
 * [DB schema][schema]
@@ -30,4 +30,5 @@ Yeti is a project management and collaboration tool inspired by Jira and built w
 ## Bonus Features
 
 - [ ] Slack integration to push issues to team channel
-- [ ] Welcome email
+- [ ] Automated welcome email on sign-up
+- [ ] Time tracking for issues

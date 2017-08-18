@@ -194,7 +194,7 @@
     }
   },
   "ui": {
-    "current_page": "Issue"
+
   }
 }
 
